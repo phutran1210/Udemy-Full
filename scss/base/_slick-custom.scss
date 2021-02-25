@@ -1,0 +1,12 @@
+.slick-slide {
+  padding: 0 space(0.75);
+}
+
+.slick-list {
+  margin: 0 space(-0.75);
+  padding-right: 30%;
+
+  @include mq("small") {
+    padding-right: 0;
+  }
+}
